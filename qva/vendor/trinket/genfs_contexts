@@ -151,3 +151,7 @@ genfscon sysfs /devices/virtual/bdi u:object_r:vendor_sysfs_mmc_host:s0
 genfscon sysfs /devices/platform/soc/4744000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/queue/read_ahead_kb u:object_r:vendor_sysfs_mmc_host:s0
 genfscon sysfs /devices/platform/soc/4744000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot0/queue/read_ahead_kb u:object_r:vendor_sysfs_mmc_host:s0
 genfscon sysfs /devices/platform/soc/4744000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot1/queue/read_ahead_kb u:object_r:vendor_sysfs_mmc_host:s0
+
+#vendor_sysfs_scsi_target nodes
+genfscon sysfs /devices/platform/soc/4804000.ufshc/host0/target0:0:0/0:0:0:1/scsi_generic  u:object_r:vendor_sysfs_scsi_target:s0
+genfscon sysfs /devices/platform/soc/4804000.ufshc/host0/target0:0:0/0:0:0:2/scsi_generic  u:object_r:vendor_sysfs_scsi_target:s0

@@ -3,3 +3,8 @@
 
 # allow to read aon related properties
 get_prop(vendor_qti_init_shell, vendor_qc_aon_prop)
+
+#for vendor_qti_init userdebug
+userdebug_or_eng(`
+    allow vendor_qti_init_shell vendor_qti_init_shell:lockdown { integrity };
+')
