@@ -196,3 +196,5 @@ genfscon sysfs /module/rmnet_shs/parameters u:object_r:vendor_sysfs_rmnet:s0
 genfscon sysfs /module/rmnet_wlan/parameters u:object_r:vendor_sysfs_rmnet:s0
 
 genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,ucsi/power_supply/ucsi-source-psy-soc:qcom,pmic_glink:qcom,ucsi1 u:object_r:vendor_sysfs_battery_supply:s0
+
+genfscon sysfs /class/qcom-battery u:object_r:vendor_sysfs_battery_supply:s0
